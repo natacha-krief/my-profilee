@@ -1,0 +1,98 @@
+body{
+background-color: #FF8AE0 ; 
+color: #FF8AE0;
+
+font-family: 'Raleway';
+font-size: 16px;
+}
+
+h1{
+	font-family: 'Simonetta'; 
+	color: #3D003D;
+	font-size: 40px;
+	letter-spacing: 6px
+}
+
+p{
+ text-justify; justify; 
+}
+ h2{
+ font-family: 'Simonetta', 
+ text-justify; justify;
+ font-size: 25px
+ color: #3D003D;
+ }
+
+ h3{
+  text-justify; justify;
+   }
+
+   @media (max-width: 500px) {
+   #container {
+   	width: 400px;
+    }
+   }
+
+   @media(max-width: 760px){
+   #container{
+   	width: 600px ;
+    }
+   }
+ 
+ #MOI{
+ 	border-radius: 50%;
+ 	display: block;
+ 	margin: 0px 200px 0px 200px  
+
+ }
+.container{
+margin: 45px auto;
+text-align: center;
+width: 700px;
+}
+
+.list-inline{
+	list-style: none;padding-left: 0px;
+
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 55px;
+	color: azure;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: black
+}
+
+
+.card-white{
+	background-color: #AD0065;
+	padding: 30px;
+	border-radius: 30PX;
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.link{
+	background-color: #AD0065;
+	padding: 10px 20px;
+	border-radius: 30px;
+	
+}
+.btn-blue{
+	text-decoration: none;
+	color:white;
+}
+
+.link:hover {
+	background-color: #581845;
+}
+.btn-blue:hover{
+	color:#FF5733;
+}
